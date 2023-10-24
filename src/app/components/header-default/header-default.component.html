@@ -1,0 +1,18 @@
+<nav *ngIf="mostrarCabRod()" class="grey darken-4">
+  <div class="logo">
+    <a href="#" class="title-header">LearnHub</a>
+  </div>
+  <div class="nav-wrapper">
+    <ul id="nav-mobile" class="">
+      <li><a routerLink="home">Home</a></li>
+      <li><a routerLink="my-courses">Meus Cursos</a></li>
+      <li><a routerLink="my-cart">Carrinho</a></li>
+      <li routerLink="profile">
+        <div class="user-profile">
+          <i class="fa-solid fa-user"></i>
+          <span class="tooltip">Meu Perfil</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

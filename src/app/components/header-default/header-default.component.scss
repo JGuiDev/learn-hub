@@ -1,0 +1,90 @@
+nav{
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+
+.title-header{
+  font-size: 2em;
+}
+
+.nav-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  display: flex;
+  gap: 5px;
+  flex-direction: row-reverse;
+  align-items: center;
+
+}
+
+#search.input-field input[type="text"] {
+  border: none !important;
+  background: none; /* Remova o fundo se necessário */
+  box-shadow: none; /* Remova a sombra se necessário */
+  /* Adicione mais estilos personalizados conforme necessário */
+}
+
+
+ul#nav-mobile{
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+li{
+  display: inline;
+  background: none;
+  border: none;
+
+}
+
+li a{
+  background: none;
+  padding: 6px 10px;
+  display: inline;
+}
+
+li:hover{
+  background: transparent;
+}
+
+.user-profile{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-profile:hover .tooltip{
+  visibility: visible;
+}
+
+.tooltip{
+  white-space: nowrap;
+  visibility: hidden;
+  position: absolute;
+  bottom: -50px;
+  background-color: #000;
+  color: #fff;
+  right: -20px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .8rem;
+}
