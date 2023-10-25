@@ -18,12 +18,12 @@ export class MyCoursesComponent {
       image: 'https://static.vecteezy.com/ti/fotos-gratis/t2/1349210-paisagem-com-uma-arvore-solitaria-no-lago-foto.jpg'
     },
     {
-      title: 'Curso de Java Avançado',
+      title: 'Angular com .Net 7',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis numquam doloribus reprehenderit in sed culpa facere iste natus eos? Ratione delectus vel aliquam sed culpa nostrum explicabo, recusandae minima!',
       image: 'https://static.vecteezy.com/ti/fotos-gratis/t2/1349210-paisagem-com-uma-arvore-solitaria-no-lago-foto.jpg'
     },
     {
-      title: 'Curso de Java Avançado',
+      title: 'Banco de dados - Do Zero ao Avançado',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis numquam doloribus reprehenderit in sed culpa facere iste natus eos? Ratione delectus vel aliquam sed culpa nostrum explicabo, recusandae minima!',
       image: 'https://static.vecteezy.com/ti/fotos-gratis/t2/1349210-paisagem-com-uma-arvore-solitaria-no-lago-foto.jpg'
     },
